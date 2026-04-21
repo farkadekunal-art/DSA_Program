@@ -1,0 +1,13 @@
+'''for i in range(7):
+    for j in range(7):
+        print("*", end=" ")
+    print()'''
+
+size = 6
+for i in range(size):
+    for j in range(size):
+        if i == 0 or i == size - 1 or j == 0 or j == size - 1:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()          
